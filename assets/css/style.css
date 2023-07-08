@@ -1,27 +1,33 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
+    display: block;
     position: fixed;
     width: 100%;
-    background-color: #d1c4da;
     align-items: center;
 }
 
 aside {
+    
     position: fixed;
     top: 0;
     left: 0;
     width: 285px;
     height: 100%;
-    background: -webkit-linear-gradient(90deg, #deb6f6 0%, #8dcffc 100%);
+    background: -webkit-linear-gradient(90deg, #620a96 0%, #3e9fe0 100%);
     padding: 80px 0;
 }
 
 .menuLateral {
-    border-right: 2px solid rgba(65, 11, 214, 0.219);
+    position: fixed;
+    border-right: 2px solid #111 ;
 }
 
 li {
@@ -29,66 +35,82 @@ li {
     padding: 10px;
     justify-items: center;
     list-style: none;
+    text-decoration: none;
 
 
 }
 
 li a:hover {
-    color: aqua;
-    transition: 1.5ms;
+    color: #111;
+    transition: 0.5s ease;
+   
 }
 
 a {
-    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fcf4f4;
 }
 
-
-
-
 #foto-perfil {
-
     width: 70%;
     padding: 10px;
     border-radius: 50%;
     margin-left: 29px;
 }
 
-.nome-principal {
-    display: block;
-    justify-items: center;
-
-
+main{
+    align-items: center;
+    height: 100vh;
+    background: -webkit-linear-gradient(90deg, #deb6f6 0%, #8dcffc 100%);
 }
 
 h1 {
-    display: grid;
-    padding: 15%;
+    height: 100px;
+    padding: 2px;
     font-size: 60px;
-    padding-top: 10%;
+    padding-top: 12%;
+    color: #fcf4f4;
+    margin-left: 27%;
+    text-shadow: 2px 2px 2px #fcf4f4;
 
-    color: rgb(62, 62, 63);
-    margin-left: 10%;
-    text-shadow: 2px 3px 5px #fcf4f4;
-
+}
+p {
+     
+    padding: 2px;
+    margin-left: 27%;
+    padding-top: 1%;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 address {
-    
-    padding: 1%;
-    padding-top: 1%;
-    color: rgb(62, 62, 63);
-    margin-left: 12%;
-
+   
+    height: 5px;
+    padding: 2.5%;
+    margin-top: 1%;
+    font-size: larger;
+    color: #131212;
+    margin-left: 25%;
 }
 
-.nome-dados {
+.icons{
     display: flex;
-    align-items: start;
-   
-    padding-top: 1%; 
-    align-items: center;
-    margin-left: 30%;
-    */
+    height: 100px;
+    width: 100px;
+    margin-left: 25%;
+    
+}
 
-    padding-top: 10px;
+.icons ion-icon {
+    width: 60px;
+    padding: 25px 0;
+    font-size: 3rem;
+    margin-left: 25%;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.icons ion-icon:hover {
+    color: #5151b9;
 }
