@@ -34,9 +34,6 @@ li {
     display: grid;
     padding: 10px;
     justify-items: center;
-    list-style: none;
-    text-decoration: none;
-
 
 }
 
@@ -114,3 +111,13 @@ address {
 .icons ion-icon:hover {
     color: #5151b9;
 }
+.conhecimentos {
+   
+    position: absolute;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 25%;
+
+
+}
+
