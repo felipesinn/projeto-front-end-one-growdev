@@ -141,3 +141,7 @@ address {
  margin-top: 5%;
 
 }
+.objetivos-detalhes li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
