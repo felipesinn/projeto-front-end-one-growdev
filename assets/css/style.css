@@ -7,24 +7,19 @@
     box-sizing: border-box;
 }
 
-
 body {
-    
-    display: block;
-    position: fixed;
     width: 100%;
     align-items: center;
 }
 
 aside {
-    
     position: fixed;
     top: 0;
     left: 0;
     width: 285px;
     height: 100%;
     background: -webkit-linear-gradient(90deg, #620a96 0%, #3e9fe0 100%);
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .menuLateral {
@@ -59,7 +54,6 @@ a {
 }
 
 main{
-    align-items: center;
     height: 100vh;
     background: -webkit-linear-gradient(90deg, #deb6f6 0%, #8dcffc 100%);
 }
@@ -68,26 +62,23 @@ h1 {
     height: 100px;
     padding: 2px;
     font-size: 60px;
-    padding-top: 10%;
+    padding-top: 15%;
     color: #fcf4f4;
     margin-left: 27%;
     text-shadow: 2px 2px 2px #fcf4f4;
-
 }
+
 p {
-     
     padding: 2px;
-    margin-left: 27%;
-    padding-top: 1%;
+    margin-left: 28%;
     font-size: 20px;
     padding-top: 30px;
 }
 
 address {
-   
     height: 5px;
     padding: 2.5%;
-    margin-top: 1%;
+    margin-top: 2%;
     font-size: larger;
     color: #131212;
     margin-left: 25%;
@@ -114,25 +105,19 @@ address {
 }
 
 .conhecimentos {
-   
     position: absolute;
-    width: 50px;
     margin-top: 15%;
-    margin-left: 32%;
-
-
+    margin-left: 30%;
 }
+
 .conhecimentos li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
 .objetivos-detalhes {
     position: absolute;
-    width: 40%;
-    height: 20px;
-    padding: 1.5%;
-    margin-top: 10%;
-   
+    margin-top: 15%;
     color: #131212;
     margin-left: 30%;
 }
